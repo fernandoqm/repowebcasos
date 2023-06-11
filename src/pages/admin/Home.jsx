@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import Card from "react-bootstrap/Card";
-import { RiTicketLine, RiMore2Fill } from "react-icons/ri";
+import { RiTicketLine, RiStackshareFill, 
+  RiCalendarCheckFill, RiPauseCircleLine } from "react-icons/ri";
+import { FcBiotech, FcMediumPriority, FcCancel, FcDoNotMix } from "react-icons/fc";
 import axios from "axios";
 
 
@@ -30,7 +32,7 @@ const Home = () => {
             <div className='bg-secondary-100 p-8 rounded-xl'>
               <div className='flex items-center justify-between mb-4'>
                 <div>
-                  <RiTicketLine className='text-4xl bg-pink-500/10 text-orange-500 p-2 box-content rounded-xl' />
+                  <RiStackshareFill className='text-4xl bg-pink-500/10 text-orange-500 p-2 box-content rounded-xl' />
                 </div>
               </div>
 
@@ -45,7 +47,7 @@ const Home = () => {
             <div className='bg-secondary-100 p-8 rounded-xl'>
               <div className='flex items-center justify-between mb-4'>
                 <div>
-                  <RiTicketLine className='text-4xl bg-pink-500/10 text-orange-500 p-2 box-content rounded-xl' />
+                  <RiCalendarCheckFill className='text-4xl bg-pink-500/10 text-orange-500 p-2 box-content rounded-xl' />
                 </div>
               </div>
 
@@ -59,7 +61,7 @@ const Home = () => {
             <div className='bg-secondary-100 p-8 rounded-xl'>
               <div className='flex items-center justify-between mb-4'>
                 <div>
-                  <RiTicketLine className='text-4xl bg-pink-500/10 text-orange-500 p-2 box-content rounded-xl' />
+                  <FcBiotech className='text-4xl bg-pink-500/10 text-orange-500 p-2 box-content rounded-xl' />
                 </div>
               </div>
 
@@ -73,7 +75,7 @@ const Home = () => {
             <div className='bg-secondary-100 p-8 rounded-xl'>
               <div className='flex items-center justify-between mb-4'>
                 <div>
-                  <RiTicketLine className='text-4xl bg-pink-500/10 text-orange-500 p-2 box-content rounded-xl' />
+                  <RiPauseCircleLine className='text-4xl bg-pink-500/10 text-orange-500 p-2 box-content rounded-xl' />
                 </div>
               </div>
 
@@ -87,7 +89,7 @@ const Home = () => {
             <div className='bg-secondary-100 p-8 rounded-xl'>
               <div className='flex items-center justify-between mb-4'>
                 <div>
-                  <RiTicketLine className='text-4xl bg-pink-500/10 text-orange-500 p-2 box-content rounded-xl' />
+                  <FcMediumPriority className='text-4xl bg-pink-500/10 text-orange-500 p-2 box-content rounded-xl' />
                 </div>
               </div>
 
@@ -101,7 +103,7 @@ const Home = () => {
             <div className='bg-secondary-100 p-8 rounded-xl'>
               <div className='flex items-center justify-between mb-4'>
                 <div>
-                  <RiTicketLine className='text-4xl bg-pink-500/10 text-orange-500 p-2 box-content rounded-xl' />
+                  <FcCancel className='text-4xl bg-pink-500/10 text-orange-500 p-2 box-content rounded-xl' />
                 </div>
               </div>
 
@@ -115,7 +117,7 @@ const Home = () => {
             <div className='bg-secondary-100 p-8 rounded-xl'>
               <div className='flex items-center justify-between mb-4'>
                 <div>
-                  <RiTicketLine className='text-4xl bg-pink-500/10 text-orange-500 p-2 box-content rounded-xl' />
+                  <FcDoNotMix className='text-4xl bg-pink-500/10 text-orange-500 p-2 box-content rounded-xl' />
                 </div>
               </div>
 
