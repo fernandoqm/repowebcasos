@@ -12,6 +12,7 @@ import Proyectos from "./pages/admin/Proyectos";
 
 //Pages casos
 import Casos from "./pages/casos/Casos";
+import RegistroCasos from "./pages/casos/RegistroCasos";
 
 //Pages Usuarios
 import Usuarios from "./pages/auth/Usuarios";
@@ -22,7 +23,7 @@ import Estados from "./pages/configuracion/Estados";
 import TipoCasos from "./pages/configuracion/TipoCasos";
 
 
-
+//Error
 import Error404 from "./pages/Error404";
 
 
@@ -36,6 +37,7 @@ function App() {
           <Route path="proyectos" element={<Proyectos />} />          
           <Route path="usuarios" element={<Usuarios />} />
           <Route path="casos" element={<Casos />} />
+          <Route path="registrocasos" element={<RegistroCasos />} />
           <Route path="tipocasos" element={<TipoCasos />} />
           <Route path="cambioclave" element={<CambioClave />} />
           <Route path="departamentos" element={<Departamentos />} />

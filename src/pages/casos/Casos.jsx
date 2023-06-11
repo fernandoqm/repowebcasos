@@ -1,11 +1,11 @@
 import React from 'react'
-import TablaCasos  from "../../componentes/Tablas/TablaCasos";
+import TablaCasos  from "../../componentes/Tablas/TablaCasosAxios";
 
 const Casos = () =>{
   return (
-    <>
-    <TablaCasos />
-    </>
+    <div>
+       <TablaCasos />
+    </div>
   );
 }
 

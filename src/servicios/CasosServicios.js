@@ -8,4 +8,8 @@ const CasosServicios = {
     getAll
 };
 
+const getConteo = () => {
+    return http.get("/conteoDatos");
+};
+
 export default CasosServicios;
