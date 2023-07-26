@@ -6,6 +6,7 @@ import { RiAddCircleLine } from "react-icons/ri";
 import { Navigate } from "react-router-dom"; 
 
 
+
 const TablaCasos = () => {
     //1 - Configurar los hooks
     const [casos, setCasos] = useState([])
@@ -136,12 +137,14 @@ const TablaCasos = () => {
                     Agregar caso nuevo
                 </Button>
             </div>
+
             <MUIDataTable
                 title={"Listado de casos atendidos"}
                 data={casos}
                 columns={columnas}
                 options={opciones}
             />
+
         </div>
     );
 };
